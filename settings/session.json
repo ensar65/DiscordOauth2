@@ -1,0 +1,5 @@
+{
+    "secret" : "thatsSooooSecret",
+    "resave" : false,
+    "saveUninitialized" : false
+}

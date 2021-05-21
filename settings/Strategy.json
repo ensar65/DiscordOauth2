@@ -1,0 +1,6 @@
+{
+    "clientID": "yourClientID",
+    "clientSecret": "yourClientSecret",
+    "callbackURL": "yourCallbackURL",
+    "scope": ["guild", "identify"]
+}
