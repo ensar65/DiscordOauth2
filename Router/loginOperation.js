@@ -37,7 +37,7 @@ router.get("/login", passport.authenticate("discord", {
 }))
 
 router.get("/callback", passport.authenticate("discord", {
-    failureRedirect: "/hata"
+    failureRedirect: "/error"
 }), (req, res) => {
     res.redirect("/")
 })
